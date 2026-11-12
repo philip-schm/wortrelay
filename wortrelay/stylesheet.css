@@ -1,0 +1,9 @@
+.translator-entry {
+    width: 112px;
+    min-height: 0;
+    padding: 0 8px;
+    border-radius: 8px;
+}
+.translator-entry StLabel.hint-text {
+    color: rgba(200, 200, 200, 0.7);
+}

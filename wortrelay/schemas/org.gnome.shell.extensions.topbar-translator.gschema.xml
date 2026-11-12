@@ -1,0 +1,8 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.topbar-translator" path="/org/gnome/shell/extensions/topbar-translator/">
+    <key name="position" type="i">
+      <range min="0" max="3"/>
+      <default>2</default>
+    </key>
+  </schema>
+</schemalist>
