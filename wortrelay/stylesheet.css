@@ -1,9 +1,44 @@
-.translator-entry {
-    width: 112px;
-    min-height: 0;
-    padding: 0 8px;
-    border-radius: 8px;
+#panel .panel-button.translator-button,
+#panel .panel-button.translator-button:hover,
+#panel .panel-button.translator-button:active,
+#panel .panel-button.translator-button:checked,
+#panel .panel-button.translator-button:focus {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0 4px;
 }
-.translator-entry StLabel.hint-text {
-    color: rgba(200, 200, 200, 0.7);
+#panel .translator-entry {
+    min-height: 0;
+    padding: 3px 12px;
+    border: none;
+    border-radius: 999px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: none;
+    color: #fff;
+    font-weight: normal;
+}
+#panel .translator-entry:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+#panel .translator-entry:focus {
+    background-color: rgba(255, 255, 255, 0.18);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+}
+#panel .translator-entry StLabel.hint-text {
+    color: rgba(255, 255, 255, 0.55);
+}
+#panel .translator-entry .translator-clear {
+    icon-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-left: 4px;
+}
+#panel .translator-entry .translator-clear:hover {
+    color: #fff;
+}
+.popup-menu .popup-menu-item.translator-copied,
+.popup-menu .popup-menu-item.translator-copied:hover,
+.popup-menu .popup-menu-item.translator-copied:selected,
+.popup-menu .popup-menu-item.translator-copied:active {
+    background-color: #26a269;
+    color: #fff;
 }

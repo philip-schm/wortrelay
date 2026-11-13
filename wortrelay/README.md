@@ -1,6 +1,6 @@
 # WortRelay
 
-German-to-English translation in the GNOME top bar, with suggestions as you type and click-to-copy.
+Translation between two languages in the GNOME top bar, with suggestions as you type and click-to-copy. German and English by default.
 
 ## Install
 
@@ -19,9 +19,11 @@ gnome-extensions enable topbar-translator-live@local
 
 ## Use
 
-Type German into the **Text…** field and pause briefly. WortRelay shows up to three suggestions when Google provides alternatives. Try **Schloss** for **lock**, **castle**, and **palace**. Click any suggestion to copy it.
+Type in either language into the **Text…** field and pause briefly. WortRelay translates into the other language and shows up to three suggestions when Google provides alternatives. Try **Schloss** for **lock**, **castle**, and **palace**, or **castle** for **Schloss** and **Burg**. Words that exist in both languages, such as **Gift**, show suggestions for both directions. Click any suggestion to copy it, or use the arrow keys and press Enter. Pressing Enter without choosing copies the first suggestion, even if you press it before the suggestions appear. The copied suggestion briefly turns green.
 
-To move the field, open WortRelay’s settings in the GNOME Extensions app or run:
+Click the empty field to see your recently copied translations. The ✕ button clears the field.
+
+To choose the two languages, move the field, change its width, or set the history length, open WortRelay’s settings in the GNOME Extensions app or run:
 
 ```sh
 gnome-extensions prefs topbar-translator-live@local

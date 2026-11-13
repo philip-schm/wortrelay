@@ -1,8 +1,25 @@
 <schemalist>
   <schema id="org.gnome.shell.extensions.topbar-translator" path="/org/gnome/shell/extensions/topbar-translator/">
     <key name="position" type="i">
-      <range min="0" max="3"/>
+      <range min="0" max="5"/>
       <default>2</default>
+    </key>
+    <key name="width" type="i">
+      <range min="80" max="400"/>
+      <default>140</default>
+    </key>
+    <key name="first-language" type="s">
+      <default>'de'</default>
+    </key>
+    <key name="second-language" type="s">
+      <default>'en'</default>
+    </key>
+    <key name="history-size" type="i">
+      <range min="0" max="20"/>
+      <default>5</default>
+    </key>
+    <key name="history" type="a(ss)">
+      <default>[]</default>
     </key>
   </schema>
 </schemalist>

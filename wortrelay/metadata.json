@@ -1,1 +1,1 @@
-{"uuid":"topbar-translator-live@local","name":"WortRelay","description":"German to English suggestions as you type","version":4,"shell-version":["49"],"settings-schema":"org.gnome.shell.extensions.topbar-translator"}
+{"uuid":"topbar-translator-live@local","name":"WortRelay","description":"Translation between two languages, with suggestions as you type","version":4,"shell-version":["49"],"settings-schema":"org.gnome.shell.extensions.topbar-translator"}
